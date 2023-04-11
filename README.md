@@ -1,1 +1,1 @@
-# Пустой репозиторий для работы с Java кодом в Android Studio
+Project work 1, Cohort 27, Student Andrei Arsenev
