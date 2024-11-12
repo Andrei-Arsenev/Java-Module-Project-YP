@@ -12,11 +12,17 @@ public class Main {
             int speed = -1;
             while (speedLimit){
                 System.out.println("— Введите скорость машины №"+i+":");
-                int curSpeed = scanner.nextInt();
-                if (curSpeed < 0 || curSpeed > 250 ) {
-                    System.out.println("— Неправильная скорость");
+                int curSpeed = 0;
+                if ( scanner.hasNextInt() ){
+                    curSpeed = scanner.nextInt();
+                    if ( curSpeed < 0 || curSpeed > 250 ) {
+                        System.out.println("— Неправильная скорость");
+                    } else {
+                        speedLimit = false;
+                    }
                 } else {
-                    speedLimit = false;
+                    scanner.next();
+                    System.out.println("— Неправильная скорость");
                 }
                 speed = curSpeed;
             }
