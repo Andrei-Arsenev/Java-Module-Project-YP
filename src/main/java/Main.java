@@ -36,7 +36,6 @@ class Car {
     }
 }
 
-
 class Race {
     String leader = "";
     String carBrand;
