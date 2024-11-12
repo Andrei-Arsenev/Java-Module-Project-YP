@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Проектная работа №1 Java-Module-Project-YP");
