@@ -23,6 +23,7 @@ public class Main {
             race.whoIsNewLeader(carBrand, speed);
         }
         race.sayLeaderName();
+        scanner.close();
     }
 }
 
