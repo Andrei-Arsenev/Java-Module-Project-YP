@@ -1,4 +1,4 @@
-Project work 1,  Cohort 27,  Student Andrei Arsenev
+Project work 1,  Cohort 27,  Student Andrei Arsenev 
 
 Исправлено критическое замечание ревьювера Ильи Казакова"
 "Если в качестве скорости ввести букву, десятичное число(с "." или ",") 
